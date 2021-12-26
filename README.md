@@ -28,5 +28,5 @@ https://vpn.kepman.ru/
 https://docs.pritunl.com/docs/connecting
 
 #### Task4 - yandex
-testapp_IP = 51.250.4.163
+testapp_IP = 51.250.4.233
 testapp_port = 9292
