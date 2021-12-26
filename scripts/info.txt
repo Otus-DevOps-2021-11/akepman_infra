@@ -1,0 +1,18 @@
+дополнения
+
+устаноила nano чтобы отредактирвоать файл
+sudo apt install nano
+
+
+выдал права на выполнение
+chmod +x install_ruby.sh
+
+запустил
+./install_ruby.sh
+
+
+green text
+tput setaf 2;echo "puma is up and running"
+
+red text
+tput setaf 1; echo "puma: installation failure"
