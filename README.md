@@ -1,10 +1,17 @@
 ## akepman_infra
 akepman Infra repository
+
+# Выполнено ДЗ № 2  Yandex Cloud 5
+
+ - [+] Основное ДЗ
+ - [+] Задание с сертификатом
+
+## В процессе сделано:
+
 ```
 OS = Windows 10
 Shell = Powershell
 ```
-### Yandex Cloud 5
 #### Task1 - One line
 `ssh -A -t appuser@51.250.4.101 ssh appuser@10.128.0.34`
 #### Task2 - ssh someinternalhost
@@ -22,7 +29,12 @@ run
 bastion_IP = 51.250.4.101
 someinternalhost_IP = 10.128.0.34
 ```
-https://vpn.kepman.ru/
+## Как проверить работоспособность:
+ -  перейти по ссылке https://vpn.kepman.ru/  так как Action выполнился я удалил ВМ
 
 #### help link
 https://docs.pritunl.com/docs/connecting
+
+## PR checklist
+ - [+] Выставил label с номером домашнего задания
+ - [+] Выставил label с темой домашнего задания
