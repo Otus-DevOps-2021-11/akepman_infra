@@ -1,7 +1,7 @@
 ## akepman_infra
 akepman Infra repository
 
-# Выполнено ДЗ Travis
+# Выполнено ДЗ Travis 1
  - [+] Основное ДЗ
  - [+] Задание дополнительное
 
@@ -18,7 +18,7 @@ akepman Infra repository
  - [+] Выставил label с темой домашнего задания
 
 
-# Выполнено ДЗ № 2  Yandex Cloud 5
+# Выполнено ДЗ № 2  Yandex Cloud bastion
 
  - [+] Основное ДЗ
  - [+] Задание с сертификатом
@@ -53,5 +53,4 @@ someinternalhost_IP = 10.128.0.34
 https://docs.pritunl.com/docs/connecting
 
 ## PR checklist
- - [+] Выставил label с номером домашнего задания
  - [+] Выставил label с темой домашнего задания
