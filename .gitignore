@@ -20,3 +20,5 @@ venv/
 .packer/key.json
 .packer/variables.json
 .Install/terraform.exe
+Install/terraform.exe
+/Install/terraform.exe
