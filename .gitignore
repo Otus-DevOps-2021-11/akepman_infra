@@ -1,3 +1,4 @@
+# Terra
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
