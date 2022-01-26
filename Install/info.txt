@@ -1,0 +1,7 @@
+powershell Get-FileHash packer.exe > sum.txt
+
+yc config list
+
+$SVC_ACCT=HER
+$FOLDER_ID=b1g5tqkc521bb5k7nqc9
+yc iam service-account create --name $SVC_ACCT --folder-id $FOLDER_ID
