@@ -1,2 +1,22 @@
-packer/key.json
-packer/variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.retry
+jdauphant.nginx
+
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
+venv/
+*.swp
+
+# packer
+.packer/key.json
+.packer/variables.json
+.Install/terraform.exe
