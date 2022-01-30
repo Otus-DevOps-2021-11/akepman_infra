@@ -18,7 +18,7 @@ venv/
 *.swp
 
 # packer
-.packer/key.json
+#.packer/key.json
 .packer/variables.json
 .Install/terraform.exe
 Install/terraform.exe
