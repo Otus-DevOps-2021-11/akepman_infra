@@ -111,16 +111,34 @@ testapp_port = 9292
 # Выполнено ДЗ № 5 terraform-1
 
  - [+] Основное ДЗ
- - [+] Задание дополнительное выполнил
+ - [-] Задание дополнительное выполнил
 
 ## В процессе сделано:
- - установил Packer
+ - установил terraform
+   Error: Failed to query available provider packages  -
+   fix
+	terraform {
+	  required_providers {
+	    yandex = {
+	      source = "yandex-cloud/yandex"
+	    }
+	  }
+	}
+   Error The symbol "a" is not a valid escape sequence selector. - сделал обратные слеши
+   сделал новый ключ
+		ssh-keygen -t rsa -f c:\_otus\ubuntu -C ubuntu
+ 		ssh-add C:\_otus\ubuntu
+   Получилось опубликовать http://51.250.10.213:9292/
+   Сделал перменные
+   Error: Invalid escape sequence - обратный слеш
+   Сделал самостотельные задния
+
 
 ## Как запустить проект:
- -
+ - он запущен
 
 ## Как проверить работоспособность:
- -
+ - http://84.201.135.229:9292/  оставил созданную вм
 
 ## PR checklist
  - [+] Выставил label с темой домашнего задания
