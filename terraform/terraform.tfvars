@@ -1,0 +1,12 @@
+service_account_key_file = "C:/_otus/key.json"
+cloud_id                 = "b1gmtfo8n32947lctp0p"
+folder_id                = "b1g5tqkc521bb5k7nqc9"
+zone                     = "ru-central1-a"
+public_key_path          = "C:/_otus/ubuntu.pub"
+image_id                 = "fd86253meikgl15v3snl"
+subnet_id                = "e9b32s46j6f7pk52jod9"
+private_key              = "C:/_otus/ubuntu"
+inst_name                = "reddit-app"
+app_disk_image           = "1"
+db_disk_image            = "2"
+

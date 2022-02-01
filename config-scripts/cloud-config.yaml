@@ -1,0 +1,33 @@
+#cloud-config
+
+package_update: true
+package_upgrade: true
+
+users:
+  - name: yc-user
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: sudo
+    shell: /bin/bash
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLPTYvgnuZEiiNxszMTXtUXyNaaI/WLnkLTsY0QOO9+FL3VM6ZxWa/qtgKL7YrrdX11IAx9AqHjp5QHe4Oaoql43EBY9OsxHIqUeXnhzZBzqzAD2bvFaZJ4evsv6l2F9q+sZekCWm5Shv+InTzGtPKSEIUSjaRqIvFd8B4bnWdpG9/iV/Z8ucz4Ucr0Ox5UOxHurqQ++UhU7Ll13eWAoytNgwkm1EfdpGCHYueWRaZi/9PL88eEof4ZoJhgafT/IoBsiIYzHfp5Jm7HgxJahO/YrMZEpTNKZHoCfxNeRyvjENVQCOdGwL3Q1xzrkF2o+Idp2KGcEhovpdlmX5KCFT+uqZUxjPtLcHAa4Z9mAHEJE6fBwwCMcRY0A0oqJHUyTFayB7E0AcDlNj/RxMSD1o21FkzO+tb7mE6aHKOsXuTf5yig6v9qUazVipulggHYkVMIaey7vS7onjF8ItzXf0iLfa50h6jvHTxPvimshgahRKm7PWWExdWKLxRlw3m27U= yc-user
+
+runcmd:
+  - apt-get -y install ruby-full ruby-bundler build-essential
+  - ruby -v
+  - bundler -v
+  - sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 4B7C549A058F8B6B
+  - 'echo "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list'
+  - sudo apt-get -y update
+  - sudo apt-get -y install mongodb-org
+  - systemctl start mongod
+  - systemctl enable mongod
+  - systemctl status mongod
+  - apt-get -y install git
+  - git clone -b monolith https://github.com/express42/reddit.git
+  - cd reddit
+  - bundle install
+  - puma -d
+  - 'ps aux | grep puma'
+
+final_message: "The system is finally up, after $UPTIME seconds"
