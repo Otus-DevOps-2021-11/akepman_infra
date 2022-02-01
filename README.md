@@ -55,7 +55,6 @@ https://docs.pritunl.com/docs/connecting
 ## PR checklist
  - [+] Выставил label с темой домашнего задания
 
-
 # Выполнено ДЗ №3 Yandex cloud-testapp
 
  - [+] Основное ДЗ
