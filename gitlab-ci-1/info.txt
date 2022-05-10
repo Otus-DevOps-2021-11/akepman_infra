@@ -1,0 +1,8 @@
+Все по инструкции
+была ошибка  docker-compose: command not found
+исправил  sudo apt install docker-compose
+
+еле нашело пароль
+1FXU9jmwvHG6W1lzdM7RAGAZOmS5gLJVvBavArtSzeE=
+
+

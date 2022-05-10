@@ -11,4 +11,3 @@ sudo mv /tmp/puma.service /etc/systemd/system/puma.service
 #export DATABASE_URL
 sudo systemctl start puma
 sudo systemctl enable puma
-

@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt install nano
-sudo apt install -y ruby-full ruby-bundler build-essential
+sudo apt-get install -y git ruby-full ruby-bundler build-essential
 
 COMMAND='ruby -v'
 if echo $COMMAND | grep -q 'command not found'; then

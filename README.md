@@ -143,3 +143,31 @@ testapp_port = 9292
 
 ## PR checklist
  - [+] Выставил label с темой домашнего задания
+
+# Выполнено ДЗ № 6 terraform-2
+
+ - [+] Основное ДЗ
+ - [-] Задание дополнительное выполнил
+
+## В процессе сделано:
+ - установил terraform
+  Error1:
+    with yandex_compute_instance.app, │   on main.tf line 17, in resource "yandex_compute_instance" "app":                                                                                                        │   17: resource "yandex_compute_instance" "app" {
+  Fix
+    сделал атач к существущей сети и добавил атм подсеть уже через конфиг
+  Error2:
+   yandex_compute_instance.app (remote-exec): bash: /tmp/terraform_1977188877.sh: /bin/bash^M: bad interpreter: No such file or directory
+  Fix
+    добавил файл terraform.tfvars не помогло
+    добавил зависимость - не помогло
+    пробелма в символе windows - решение
+
+## Как запустить проект:
+ -
+
+## Как проверить работоспособность:
+ - видимо ни как, наверно есть тесты у ранера
+
+## PR checklist
+ - [+] Выставил label с темой домашнего задания
+

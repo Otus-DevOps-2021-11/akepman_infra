@@ -39,11 +39,11 @@ variable "inst_name" {
 
 variable "app_disk_image" {
   description = "Disk image for reddit app"
-  default     = "1"
+  default     = "fd8gnvrkcohld7j44pc4"
 }
 
 variable "db_disk_image" {
   description = "Disk image for reddit db"
-  default     = "2"
+  default     = "fd8buhrprsvkkkd8uohn"
 }
 
