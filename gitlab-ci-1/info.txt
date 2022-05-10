@@ -3,6 +3,10 @@
 исправил  sudo apt install docker-compose
 
 еле нашело пароль
-1FXU9jmwvHG6W1lzdM7RAGAZOmS5gLJVvBavArtSzeE=
+1FXU9jmvHG6W1lzdM7RAGAZOmS5gLJVvBavArtSzeE=
+
+Чтото было с папкой редит, сделал копию
+
+
 
 
