@@ -15,7 +15,7 @@ build_job:
   stage: build
   before_script:
     - ls
-    - cd reddit
+    - cd reddit1
     - ls
     - bundle install
   script:
