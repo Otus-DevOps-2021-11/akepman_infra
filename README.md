@@ -171,3 +171,24 @@ testapp_port = 9292
 ## PR checklist
  - [+] Выставил label с темой домашнего задания
 
+
+# Выполнено ДЗ Устройство Gitlab CI. Построение процесса непрерывной поставки
+ - [+] Основное ДЗ
+ - [-] Задание дополнительное выполнил
+
+## В процессе сделано:
+ - Все по инструкции
+   Error1: была ошибка  docker-compose: command not found
+    Fix: исправил  sudo apt install docker-compose
+   еле нашело пароль 1FXU9jmvHG6W1lzdM7RAGAZOmS5gLJVvBavArtSzeE=
+   Error1:Чтото было с папкой редит
+    Fix: сделал копию reddit1
+
+## Как запустить проект:
+ - http://gitlab.kepman.ru
+
+## Как проверить работоспособность:
+ - http://gitlab.kepman.ru  могу скриншоты приложить запусков выполнения джобов пайплайна
+
+## PR checklist
+ - [+] Выставил label с темой домашнего задания
